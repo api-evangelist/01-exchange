@@ -1,0 +1,32 @@
+# 01 Exchange
+
+> 01 Exchange (01.xyz) was a full-suite decentralized derivatives exchange on Solana offering cross-margined, cross-collateralized Perpetual Futures and Power Perpetuals (SQUOL), built on a fully on-chain Serum limit orderbook. The people and product behind 01 are now part of N1 (app.n1.xyz); trading, points, and rewards have migrated there. This profile captures 01 Exchange's historical developer surface (SDKs and program interface published by the Zero One Global Foundation).
+
+## Docs
+
+- [Introduction / Developer Docs](https://docs.01.xyz/): Developer documentation for the 01 Solana program and SDKs.
+- [Python SDK Docs](https://01protocol.github.io/zo-sdk-py/): Reference for the zo-sdk Python client.
+- [TypeScript Client Docs](https://01protocol.github.io/zo-client/): Reference for the @zero_one/client TypeScript SDK.
+
+## SDKs & Packages
+
+- [@zero_one/client (npm)](https://www.npmjs.com/package/@zero_one/client): 01 TypeScript Client SDK.
+- [zo-sdk (PyPI)](https://pypi.org/project/zo-sdk/): 01.xyz Python SDK.
+- [zo-abi (crates.io)](https://crates.io/crates/zo-abi): 01.xyz anchor program interface (Rust).
+
+## Source
+
+- [GitHub — Zero One Global Foundation (01protocol)](https://github.com/01protocol): Org hosting SDKs, keeper/liquidator bots, REST service, and examples.
+- [zo-client](https://github.com/01protocol/zo-client): TypeScript client SDK.
+- [zo-sdk-py](https://github.com/01protocol/zo-sdk-py): Python SDK.
+- [zo-abi](https://github.com/01protocol/zo-abi): Anchor program interface.
+- [zo-ts-rest-api](https://github.com/01protocol/zo-ts-rest-api): Zero One TypeScript REST API service (self-hostable).
+- [zo-awesome](https://github.com/01protocol/zo-awesome): Community tools and repositories for 01 Exchange.
+
+## Blog
+
+- [01 Exchange on Medium](https://01exchange.medium.com/): Announcements and product writing.
+
+## Successor
+
+- [N1 (app.n1.xyz)](https://app.n1.xyz/): The network 01 was built on; 01 accounts, trading, points, and rewards now live here.

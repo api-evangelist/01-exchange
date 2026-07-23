@@ -1,8 +1,25 @@
 aid: 01-exchange
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/01-exchange.png
 name: 01 Exchange
-description: '01 Exchange is a company surfaced as a portfolio company of multicoin-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: '01 Exchange (01.xyz) was a full-suite decentralized derivatives exchange on Solana,
+  offering cross-margined and cross-collateralized Perpetual Futures and Power Perpetuals (SQUOL)
+  built on a fully on-chain Serum limit orderbook, with support for up to 100 markets and 50
+  collateral tokens and up to 20x leverage. It was surfaced as a portfolio company of multicoin-capital
+  and added to the API Evangelist network for enrichment. The people and product behind 01 are now
+  part of N1 (app.n1.xyz), where trading, points, and rewards have migrated. This profile captures 01
+  Exchange''s historical developer surface: the TypeScript, Python, and Rust SDKs and on-chain program
+  interface published by the Zero One Global Foundation (github.com/01protocol).'
 url: https://raw.githubusercontent.com/api-evangelist/01-exchange/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +33,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Crypto Web3
+- Decentralized Finance
+- Solana
+- Derivatives
+- Perpetual Futures
+- Decentralized Exchange
+- Blockchain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://01.xyz
+- type: Documentation
+  url: https://docs.01.xyz/
+- type: GitHubOrganization
+  url: https://github.com/01protocol
+- type: SourceCode
+  url: https://github.com/01protocol
+- type: Blog
+  url: https://01exchange.medium.com/
+- type: Packages
+  url: packages/01-exchange-packages.yml
+- type: SDKs
+  url: packages/01-exchange-packages.yml
+- type: LLMsTxt
+  url: llms/01-exchange-llms.txt
+- type: DomainSecurity
+  url: security/01-exchange-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

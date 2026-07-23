@@ -1,0 +1,33 @@
+generated: '2026-07-17'
+method: searched
+source: npm, PyPI, crates.io registries + github.com/01protocol org
+packages:
+- language: typescript
+  registry: npm
+  name: "@zero_one/client"
+  version: 0.11.4
+  license: Apache-2.0
+  url: https://www.npmjs.com/package/@zero_one/client
+  repository: https://github.com/01protocol/zo-client
+  install: npm install @zero_one/client
+  description: 01 TypeScript Client SDK for the 01.xyz Solana derivatives program.
+  official: true
+- language: python
+  registry: pypi
+  name: zo-sdk
+  version: 0.2.0
+  url: https://pypi.org/project/zo-sdk/
+  repository: https://github.com/01protocol/zo-sdk-py
+  docs: https://01protocol.github.io/zo-sdk-py/
+  install: pip install zo-sdk
+  description: 01.xyz Python SDK interfacing with the 01 Solana program.
+  official: true
+- language: rust
+  registry: crates.io
+  name: zo-abi
+  version: 0.6.0
+  url: https://crates.io/crates/zo-abi
+  repository: https://github.com/01protocol/zo-abi
+  install: cargo add zo-abi
+  description: 01.xyz anchor program interface (on-chain program bindings).
+  official: true
